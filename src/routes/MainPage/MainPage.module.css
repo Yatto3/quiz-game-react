@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.header{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    background-color: greenyellow;
+
+}
+
+.menu{
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    cursor: pointer;
+   
+    
+    span{
+        
+        width: 3vh;
+        height: 0;
+        border: 1px solid black;
+    }
+}
+
+
+.logo{
+    display: flex;
+    font-size: 1vw;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6vw;
+    a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1vw;
+    padding: 5px;
+
+    p{
+        font-size: 1.2vw;
+    }  
+}
+
+.content{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    padding: 1vw;
+    gap: 1vw;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    
+
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 4vw;
+            
+        }
+
+        h3{
+            font-size: 1.5vw;
+            align-self: flex-start;
+        }
+
+        span{
+            a{
+                text-decoration: underline;
+                color: rgb(38, 131, 38);
+            }
+            
+            text-decoration: underline;
+            color: rgb(38, 131, 38);
+           
+        }
+        
+        p{
+            padding: 10px;
+            background-color: rgb(196, 237, 191);
+            font-size: 1vw;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            flex-wrap: wrap;
+            word-wrap: break-word;
+        }
+
+       
+    }
+}
+
+
+.topics{
+    margin-top: 2vw;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 0.6vw;
+        padding: 10px;
+
+        li{ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 0.1vw;
+            width: 6vw;
+            height: 2vw;
+            font-size: 1vw;
+            border: 2px solid transparent;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            border-radius: 8px;
+            color: rgb(40, 39, 39);
+            font-weight: 900;
+
+            img{
+                width: 1vw;
+                height: 1vw;
+            }
+        }
+    }
+
+    button{
+        margin-top: 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        width: 10vw;
+        font-size: 2vw;
+        padding: 5px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        letter-spacing: 2px;
+        border-radius: 2px;
+        background-color: greenyellow;
+        color: white;
+        border-radius: 8px;
+    }
+
+    button:active{
+        margin-top: 40px;
+    }
+    
+}
+
+.selected{
+    border: 2px solid black;
+}

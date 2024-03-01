@@ -1,0 +1,27 @@
+
+.errorPage{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    gap: 1vw;
+    h1{
+        font-size: 2vw;
+    }
+    p{
+        font-size: 1vw;
+        color: rgb(253, 41, 41);
+    }
+    a{
+        color: rgb(47, 227, 255);
+    }
+}
